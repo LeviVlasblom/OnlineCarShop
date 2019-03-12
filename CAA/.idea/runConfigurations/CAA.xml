@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="CAA" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="GUI" />
+    <module name="CAA" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
