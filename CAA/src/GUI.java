@@ -8,6 +8,7 @@ import static javafx.application.Application.launch;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javax.imageio.ImageIO;
 import org.jfree.fx.FXGraphics2D;
@@ -15,10 +16,10 @@ import org.jfree.fx.ResizableCanvas;
 
 public class GUI extends Application {
     private ResizableCanvas canvas;
+    private VBox vbox;
 
     @Override
     public void start(Stage stage) throws Exception {
-
         BorderPane mainPane = new BorderPane();
         canvas = new ResizableCanvas(g -> draw(g), mainPane);
         mainPane.setCenter(canvas);
